@@ -36,7 +36,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
     }
 
     const Question3 = () => {
-      const message = createChatBotMessage('Dhrumil Soni’s coding journey began with small projects like a calculator and a number guessing game, which laid the groundwork for tackling more complex challenges. Building on these basics, Khushal developed medium-level projects, including a university site and an Ajay Modi Travels website, as well as a Spotify clone—each of these crafted using Bootstrap for responsive design. Currently, they are working on an e-commerce platform using React.js, which has deepened their expertise in front-end development. This journey started with self-guided learning on YouTube, where Khushal began honing their skills and expanding their knowledge in web development.',{
+      const message = createChatBotMessage('Dhrumil Soni’s coding journey began with small projects like a calculator and a number guessing game, which laid the groundwork for tackling more complex challenges. Dhrumil developed medium-level projects, including H & D Ceramic PVT LTD Website, using Bootstrap for responsive design. Currently, they are working on an e-commerce platform using React.js, which has deepened their expertise in front-end development. This journey started with self-guided learning on YouTube, where Dhrumil began honing their skills and expanding their knowledge in web development.',{
         widget:'ButtonMenuList'
       });
       updateState(message);
